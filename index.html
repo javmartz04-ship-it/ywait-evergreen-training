@@ -43,7 +43,6 @@ h1{text-wrap:balance}
 .page{padding:44px 0 96px;text-align:center}
 .page .logo{margin:0 auto}
 .k{display:inline-flex;align-items:center;gap:12px;margin-top:48px;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--t3)}
-.k::before{content:"";width:22px;height:2px;background:var(--accent)}
 .h1{font-family:var(--serif);font-weight:600;font-size:clamp(30px,4.6vw,52px);line-height:1.12;letter-spacing:-.6px;margin-top:18px}
 .h1 .ln{display:block}
 @media (min-width:1000px){.h1 .ln{white-space:nowrap}}
@@ -52,8 +51,8 @@ h1{text-wrap:balance}
 /* steps */
 .step{margin-top:44px}
 .step+.step{margin-top:56px}
-.sl{display:flex;align-items:center;justify-content:center;gap:14px;font-size:15px;font-weight:600;color:var(--ink)}
-.sl b{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:var(--ink);color:#fff;font-size:13px;font-weight:600}
+.sl{display:flex;align-items:center;justify-content:center;gap:6px;font-size:15px;font-weight:600;color:var(--ink)}
+.sl b{margin-right:8px;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:var(--ink);color:#fff;font-size:13px;font-weight:600}
 .sl span{color:var(--t3);font-weight:400}
 
 /* video */
@@ -76,11 +75,9 @@ h1{text-wrap:balance}
 .poster img{width:100%;height:100%;object-fit:cover;object-position:46% 20%}
 
 /* CTA */
-.btn{display:inline-flex;align-items:center;gap:14px;margin-top:20px;min-height:62px;padding:0 38px;border-radius:999px;background:var(--accent-deep);color:#fff;font-weight:600;font-size:18px;text-decoration:none;
+.btn{display:inline-flex;align-items:center;gap:14px;margin-top:20px;min-height:62px;padding:0 44px;border-radius:999px;background:var(--accent-deep);color:#fff;font-weight:600;font-size:18px;text-decoration:none;
   box-shadow:0 16px 32px -16px rgba(194,32,94,.7);transition:transform .35s var(--ease),background .35s var(--ease)}
-.btn svg{width:18px;height:18px;transition:transform .35s var(--ease)}
 .btn:hover{transform:translateY(-2px);background:#AE1A53}
-.btn:hover svg{transform:translateX(3px)}
 .btn:active{transform:none}
 .btn:focus-visible{outline:3px solid var(--ink);outline-offset:4px}
 .risk{margin-top:14px;font-size:14px;color:var(--t3)}
@@ -142,7 +139,7 @@ h1{text-wrap:balance}
     </h1>
 
     <div class="step">
-      <p class="sl"><b>1</b>Watch the training <span>· with Jessica Wade</span></p>
+      <p class="sl"><b>1</b>Watch the training <span>with Jessica Wade</span></p>
       <div class="frame">
         <div class="core" id="core">
           <button class="poster" id="poster" type="button" aria-label="Play the training: The 7-Layer Family Protection Scorecard, with Jessica Wade">
@@ -159,8 +156,8 @@ h1{text-wrap:balance}
     </div>
 
     <div class="step">
-      <p class="sl"><b>2</b>Book your free call <span>· find out where your plan stands</span></p>
-      <a class="btn js-book" href="#">Book My Free Call<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      <p class="sl"><b>2</b>Book your free call <span>and find out where your plan stands</span></p>
+      <a class="btn js-book" href="#">Book My Free Call</a>
       <p class="risk">Free, one-on-one with Jessica. Plain English, no legal jargon.</p>
     </div>
   </div>
